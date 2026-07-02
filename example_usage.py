@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import OrderHistoryClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = OrderHistoryClient()
+    print(c.lookup_history("customer@test.com"))
 if __name__ == '__main__':
     main()

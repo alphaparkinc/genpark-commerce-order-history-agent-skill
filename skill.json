@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "commerce-order-history-agent-skill",
+  "name": "genpark-commerce-order-history-agent-skill",
   "outputs": {
     "result_val": {
       "type": "string"

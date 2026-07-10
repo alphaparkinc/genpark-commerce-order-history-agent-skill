@@ -1,17 +1,17 @@
-﻿{
-    "version":  "1.0.0",
-    "name":  "commerce-order-history-agent-skill",
-    "outputs":  {
-                    "result_val":  {
-                                       "type":  "string"
-                                   }
-                },
-    "description":  "Commerce database historical purchases customer lookup agent skill.",
-    "inputs":  {
-                   "input_val":  {
-                                     "type":  "string"
-                                 }
-               },
-    "author":  "alphaparkinc",
-    "prompt":  "Coordinate commerce-order-history-agent-skill operations using the input configurations."
+{
+  "version": "1.0.0",
+  "name": "commerce-order-history-agent-skill",
+  "outputs": {
+    "result_val": {
+      "type": "string"
+    }
+  },
+  "description": "GenPark AI Agent Skill - Commerce database historical purchases customer lookup agent skill.",
+  "inputs": {
+    "input_val": {
+      "type": "string"
+    }
+  },
+  "author": "genpark",
+  "prompt": "Coordinate commerce-order-history-agent-skill operations using the input configurations."
 }
